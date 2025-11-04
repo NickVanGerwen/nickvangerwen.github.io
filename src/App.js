@@ -7,8 +7,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         {document.title = 'Nick van Gerwen - Portfolio'}
-        <Route path="/Portfolio/Home" element={<Home />} />
-        <Route path="/Portfolio/" element={<Home />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );
